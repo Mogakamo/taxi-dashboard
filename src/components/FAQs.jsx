@@ -4,7 +4,7 @@ import { IoIosArrowForward } from "react-icons/io";
 import { AiFillCalendar } from "react-icons/ai";
 import { MdTimelapse } from "react-icons/md";
 import { IoMdCash } from "react-icons/io";
-import { cardStyle, cardStyles } from "./ReusableStyles";
+import { cardStyle } from "./ReusableStyles";
 
 
 function FAQs() {
@@ -30,9 +30,9 @@ function FAQs() {
             </div>
             <div className="faqs">
                 {
-                    faqs.map((faq) => {
+                    faqs.map((faq, index) => {
                         return (
-                            <div className="faq">
+                            <div className="faq" key={index}>
                                 <div className="info">
                                     {faq.icon}
                                     <h4>{faq.text}</h4>
