@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import img from '../assets/profile.jpg'
 import { HiOutlineLocationMarker } from 'react-icons/hi'
-import { cardStyle, cardStyles } from './ReusableStyles'
+import { cardStyle} from './ReusableStyles'
 
 function Profile() {
     return (
