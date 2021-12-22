@@ -3,6 +3,7 @@ import styled from "styled-components";
 import { BiSearch } from "react-icons/bi";
 
 function NavBar() {
+    
   return (
     <Nav>
       <div className="title">

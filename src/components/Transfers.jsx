@@ -132,6 +132,16 @@ const Section = styled.section`
             transform: translateX(0.5rem);
         }
     }
+
+    @media screen and (min-width: 280px) and (max-width: 1080px) {
+        .transactions {
+            .transaction {
+               flex-direction: column;
+               align-items: center;
+               gap: 1rem;
+            }
+        }   
+    }
 `;
 
 export default Transfers

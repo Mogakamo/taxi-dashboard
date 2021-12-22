@@ -231,6 +231,7 @@ const Section = styled.section`
             border-color: black !important;
         }
     }
+     
 `;
 
 export default Earnings
